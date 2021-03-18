@@ -1,0 +1,42 @@
+/* debug */
+nav{
+    height: 70px;
+    background-color: pink;
+}
+
+header>section{
+    height: 300px;
+    background-color: rgb(236, 217, 104);
+}
+
+main{
+    height:500px;
+    background-color: blue;
+}
+
+footer{
+    height: 50px;
+    background-color: violet;
+}
+
+
+/* debug */
+
+* {
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+}
+
+#main-container {
+    width:70%;
+    margin:auto;
+}
+
+header>section{
+    margin: 10px 0;
+}
+
+footer{
+    margin-top: 5px;
+}
