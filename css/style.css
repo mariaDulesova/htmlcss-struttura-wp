@@ -1,26 +1,34 @@
 /* debug */
 nav{
     height: 70px;
-    background-color: pink;
+    background-color: violet;
 }
-
 header>section{
     height: 300px;
     background-color: rgb(236, 217, 104);
 }
-
 main{
-    height:500px;
+    height:505px;
     background-color: blue;
 }
-
+#box-main{
+    height: 10%;
+    background-color: lightskyblue;
+}
+#box-left,
+#box-middle,
+#box-right {
+    height: 85%;
+    background-color: lightskyblue;
+}
 footer{
     height: 50px;
-    background-color: violet;
+    background-color: darkorchid;
 }
 
+/* /debug */
 
-/* debug */
+/* generale */
 
 * {
  box-sizing: border-box;
@@ -28,15 +36,31 @@ footer{
  padding:0;
 }
 
-#main-container {
-    width:70%;
+#body-container {
+    width:80%;
     margin:auto;
 }
 
+/* contenuto */
 header>section{
-    margin: 10px 0;
+    margin: 15px 0;
 }
-
+.clearfix::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+#box-left, 
+#box-right {
+    float:left;
+    width: 23%;
+    margin: 1.8% 0;
+}
+#box-middle {
+    float:left;
+    width: 50%;
+    margin: 1.8% 2%;
+}
 footer{
-    margin-top: 5px;
+    margin-top: 10px;
 }
